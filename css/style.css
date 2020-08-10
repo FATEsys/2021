@@ -438,6 +438,32 @@ button:focus,
     color     : #888888;
     }
 
+/*---------------------------
+ * Section keynote
+ *---------------------------*/
+ .section-keynote {
+    margin-bottom : 60px;
+    text-align    : left;
+}
+
+.section-keynote h1 {
+    margin-bottom : 5px;
+}
+
+.section-keynote h2 {
+    margin-bottom : 5px;
+    text-align: center;
+}
+
+.section-keynote h3 {
+    margin-bottom : 5px;
+    text-align: left;
+}
+
+.section-keynote p {
+    font-size : 18px;
+    color     : #888888;
+}
 /* ----------------------------------------------
  * About Event
  *-----------------------------------------------*/
@@ -524,29 +550,29 @@ button:focus,
 /* --------------------------
  * Agenda
  *---------------------------*/
-.section-ajenda .session {
+.section-agenda .session {
     padding       : 15px 0;
     border-left   : 1px solid #eeeeee;
     margin-bottom : 40px;
     }
 
-.section-ajenda .session time {
+.section-agenda .session time {
     padding       : 5px 25px 15px;
     border-bottom : 1px solid #eeeeee;
     display       : inline-block;
     }
 
-.section-ajenda .session h2 {
+.section-agenda .session h2 {
     margin : 20px 0 0 20px;
     }
 
-.section-ajenda .session h3 {
+.section-agenda .session h3 {
     margin         : 20px 0 20px 20px;
     font-size      : 20px;
     text-transform : uppercase;
     }
 
-.section-ajenda .session h3 span {
+.section-agenda .session h3 span {
     font-size   : 14px;
     display     : block;
     line-height : 1;
@@ -758,3 +784,11 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+.profile-img img {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+    padding-bottom: auto;
+
+}
