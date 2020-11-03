@@ -462,6 +462,7 @@ button:focus,
 
 .section-keynote p {
     font-size : 18px;
+    font-weight: 400;
     color     : #888888;
 }
 /* ----------------------------------------------
@@ -578,6 +579,13 @@ button:focus,
     line-height : 1;
     }
 
+.section-agenda .section-papers a {
+    font-weight : 400;
+    }
+
+.section-agenda .section-papers p {
+    font-weight : 400;
+    }
 /* --------------------------
  * Pricing Table
  *---------------------------*/
