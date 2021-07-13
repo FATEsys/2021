@@ -247,12 +247,12 @@ button:focus,
     background     : transparent;
     margin         : 0;
     font-size      : 15px;
-    text-transform : uppercase;
+    /*text-transform : uppercase;*/
     }
 
 @media (max-width : 768px) {
     .navbar {
-        padding : 10px;
+        padding : 0px;
         }
     }
 
